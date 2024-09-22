@@ -5,6 +5,7 @@ body {
     background-image: url('fundo.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .container1 {
@@ -191,5 +192,19 @@ h4 {
 
     .footer {
         font-size: 1.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-position: top center; 
+        background-size: cover; 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-position: top center;
+        background-size: cover; 
     }
 }
